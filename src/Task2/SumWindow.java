@@ -21,6 +21,7 @@ public class SumWindow extends JFrame {
         JButton loadButton = new JButton("Завантажити файл");
         loadButton.addActionListener(new LoadButtonListener());
 
+
         JPanel topPanel = new JPanel();
         topPanel.add(new JLabel("Файл:"));
         topPanel.add(fileField);

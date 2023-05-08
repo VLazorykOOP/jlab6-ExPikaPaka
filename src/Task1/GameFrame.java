@@ -8,7 +8,7 @@ import java.awt.event.*;
 public class GameFrame extends JFrame {
     private GamePanel gamePanel;
     private boolean isDragging = false;
-    private int BORDER_SIZE = 10;
+    private int BORDER_SIZE = 15;
     private Point dragStartPoint;
     public GameFrame() {
         int width = 600;
